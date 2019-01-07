@@ -1,0 +1,170 @@
+/*========== image-gallery css ===========*/
+.image-gallery{}
+.gallery-item{
+    position: relative;
+    overflow: hidden;
+    img{
+        transition: all 0.4s linear;
+    }
+    .content{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        font-size: 24px;
+        line-height: 35px;
+        font-family: $pop;
+        color: #fff;
+        padding: 18px 30px;
+        background: rgba(0, 0, 0, 0.170);
+    }
+    &:hover{
+        img{
+            transform: scale(1.02);
+        }
+    }
+}
+
+/*===========analytics_progress_area css ===========*/
+.analytics_progress_area{
+    background: #1f2932;
+}
+.analytics-progressbar{
+    text-align: center;
+    .circle{
+        position: relative;
+    }
+    .text{
+        position: absolute;
+        font-size: 30px;
+        font-family: $pop;
+        color: #fff;
+        font-weight: 400;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    h2{
+        font-size: 20px;
+        color: #fff;
+        font-family: $pop;
+        font-weight: 400;
+        padding: 20px 0px 15px;
+    }
+    p{
+        font-size: 15px;
+        color: #fff;
+        opacity: 0.50;
+    }
+}
+
+
+
+/*portfolio_area css
+================================*/
+
+.portfolio_area{
+    padding: 120px 0px;
+}
+.portfolio_filter{
+    text-align: center;
+    margin-bottom: 70px;
+    li{
+        font: 500 14px/26px $pop;
+        color: #1e2d3c;
+        letter-spacing: 0.70px;
+        text-transform: uppercase;
+        padding: 0px 0px 4px;
+        border-bottom: 2px solid transparent;
+        margin: 0px 20px;
+        transition: all 0.4s linear;
+        cursor: pointer;
+        &.active,&:hover{
+            border-color: #33cdf8;
+        }
+    }
+}
+.portfolio-gallery{
+}
+.portfolio-item{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    &:before{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+        content: '';
+        opacity: 0;
+        background: #fff;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: scale3d(1.4,1.4,1);
+        transform: scale3d(1.4,1.4,1);
+    }
+    img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .project-hover{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        padding: 2em;
+        overflow: hidden;
+        h5{
+            font: 600 14px/24px $pop;
+            color: #111111;
+            letter-spacing: 0.70px;
+            text-transform: uppercase;
+            padding-bottom: 7px;
+            transition: all 0.4s linear;
+            transform: translate3d(0,10px,0);
+            opacity: 0;
+        }
+        h6{
+            font:400 13px/20px $pop;
+            color: #777777;
+            transition: transform 0.35s;
+            opacity: 0;
+            transform: translate3d(0,20px,0);
+        }
+    }
+    &:hover{
+        &:before{
+            opacity: 0.80;
+            transform: scale3d(1,1,1); 
+        }
+        .project-hover{
+            h5,h6{
+                opacity: 1;
+                transform: translate3d(0,0,0);
+            }
+        }
+    }
+}
+.load-btn{
+    border: 2px solid #d4d4d4;
+    font: 600 12px/48px $pop;
+    color: #111111;
+    letter-spacing: 0.60px;
+    display: block;
+    width: 170px;
+    height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px auto 0px;
+    transition: all 0.4s linear;
+    &:hover{
+        background: #33cdf8;
+        border-color: #33cdf8;
+        color: #fff;
+    }
+}
+
+.pr-gallery-three{
+//    padding: 0px 15px;
+}

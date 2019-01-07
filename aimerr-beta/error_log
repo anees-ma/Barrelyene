@@ -1,0 +1,6 @@
+[11-Mar-2018 13:06:23 UTC] PHP Notice:  Undefined variable: laststname in /home/aimerrco/public_html/beta/mail.php on line 16
+[11-Mar-2018 13:07:23 UTC] PHP Notice:  Undefined variable: laststname in /home/aimerrco/public_html/beta/mail.php on line 16
+[11-Mar-2018 13:45:49 UTC] PHP Notice:  Undefined variable: laststname in /home/aimerrco/public_html/beta/mail.php on line 17
+[11-Mar-2018 13:45:49 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/aimerrco/public_html/beta/mail.php on line 26
+[11-Mar-2018 14:55:23 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/aimerrco/public_html/beta/emailtest.php on line 105
+[11-Mar-2018 14:56:06 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/aimerrco/public_html/beta/emailtest.php on line 105

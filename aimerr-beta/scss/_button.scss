@@ -1,0 +1,114 @@
+.get_btn{
+    font: 500 12px/26px $pop;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 8px 35px;
+    color: #fff;
+    border-radius: 40px;
+    margin-top: 17px;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    &:before{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #fff;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        transition-property: transform;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-out;
+        border-radius: 40px;
+    }
+    &:hover{
+        color: #3fcef7;
+        box-shadow: 0px 4.99px 22px 0px rgba(0, 0, 0, 0.15);
+        &:before{
+            transform: scaleX(1);
+            transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+        }
+    }
+}
+
+/*===== hero btn css =====*/
+.pro_btn{
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 47px 8px;
+    border-radius: 50px;
+    margin-top: 45px;
+    transition: all 0.3s linear;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    &:before{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #fff;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        transition-property: transform;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-out;
+    }
+    &:hover{
+        color: $blue; 
+        box-shadow: 7.5px 12.99px 25px 0px rgba(0, 0, 0, 0.15);
+        &:before{
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+}
+
+.green_btn{
+    background: $green;
+    color: #fff;
+    border: 0px;
+    &:before{
+        background: #6dad29;
+        border-color: #6dad29;
+    }
+    &:hover{
+        color: #fff;
+    }
+}
+
+.btn_blue{
+    color: #fff;
+    &:hover{
+        color: #0b3b7e !important;
+    } 
+}
+
+.social-btn{
+    &:before{
+        background-image: -moz-linear-gradient( 165deg, rgb(35,234,143) 0%, rgb(0,158,253) 100%);
+        background-image: -webkit-linear-gradient( 165deg, rgb(35,234,143) 0%, rgb(0,158,253) 100%);
+        background-image: -ms-linear-gradient( 165deg, rgb(35,234,143) 0%, rgb(0,158,253) 100%);
+        border-image: linear-gradient(-95deg, rgb(35,234,143) 0%, rgb(0,158,253) 100%);
+        border-image-slice: 1;
+    }
+    &:hover{
+        color: #fff;
+        border-color: transparent;
+    }
+}

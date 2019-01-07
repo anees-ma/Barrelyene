@@ -1,0 +1,192 @@
+.hero_area{
+    background: $blue;
+    padding: 200px 0px;
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        bottom: -1px;
+        background: url("../image/banner/shape-bg.png") no-repeat scroll center bottom;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 72px);
+        @media (min-width:1921px){
+            background-size: cover;
+            bottom: -3px;
+        }
+    }
+}
+.hero_text{
+    color: #fff;
+    padding-top: 84px;
+    padding-right: 57px;
+    h2{
+        font-size: 45px;
+        line-height: 60px;
+        font-weight: 600;
+        padding-bottom: 32px;
+    }
+    p{
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 300;
+    }
+}
+.header_mac_img{
+    position: absolute;
+    left: -87px;
+    width: auto;
+}
+.hero_text .hero_title{
+    font-size: 60px;
+    line-height: 80px;
+}
+
+
+/*=========== hero_area_two css =============*/
+.banner_pad{
+    padding: 220px 0px;
+    overflow: hidden;
+}
+.hero_area_two{
+    background: url("../image/banner/banner-2.jpg") no-repeat scroll center 0;
+    background-size: cover;
+    .hero_text{
+        padding-top: 30px;
+        padding-right: 25px;
+        h2{
+            font-size: 60px;
+            line-height: 80px;
+        }   
+        p{
+            font-weight: 300;
+        }
+    }
+    &.seo-features-two{
+        &:before{
+            height: calc(100% - 425px);
+        }
+        .header_mac_img{
+            left: 87px;
+        }
+        .pro_btn{
+            &:hover{
+                color: #0b3774;
+            }
+        }
+    }
+}
+
+
+/*========== seo-social_banner css ========*/
+
+.seo-social_banner{
+    background-image: -moz-linear-gradient( 145deg, rgb(253,198,78) 0%, rgb(226,58,57) 100%);
+    background-image: -webkit-linear-gradient( 145deg, rgb(253,198,78) 0%, rgb(226,58,57) 100%);
+    background-image: -ms-linear-gradient( 145deg, rgb(253,198,78) 0%, rgb(226,58,57) 100%);
+    .header_mac_img{
+        left: 0;
+    }
+    .pro_btn{
+        color: #fff;
+        &:before{
+            background-image: -webkit-linear-gradient(55deg, rgb(253,198,78) 0%, rgb(226,58,57) 100%);
+            background-image: -o-linear-gradient(55deg, rgb(253,198,78) 0%, rgb(226,58,57) 100%);
+            background-image: linear-gradient(145deg, rgb(253,198,78) 0%, rgb(226,58,57) 100%); 
+            border-top: 2px solid transparent;
+            border-image: linear-gradient(145deg, rgb(253,198,78) 0%, rgb(226,58,57) 100%);
+            border-image-slice: 1;
+        }
+        &:hover{
+            color: #fff;
+            border-color: transparent;
+        }
+    }
+}
+
+/*===== startup_banner css ====*/
+.startup_banner{
+    background: url("../image/banner/banner-3.jpg") no-repeat scroll center 0;
+    background-size: cover;
+    position: relative;
+    &:before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background: #222624;
+        opacity: 0.60;
+    }
+}
+
+/*===== software_banner css ====*/
+.software_banner{
+    background: url("../image/software/banner.jpg") no-repeat scroll center 0;
+    background-size: cover;
+    .header_mac_img{
+        left: 0;
+    }
+}
+
+/*===== social_banner css ====*/
+.social_banner{
+    background: url("../image/banner/social.jpg") no-repeat scroll center 0;
+    background-size: cover;
+    &:before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: -moz-linear-gradient( 165deg, rgb(35,234,143) 0%, rgb(0,158,253) 100%);
+        background-image: -webkit-linear-gradient( 165deg, rgb(35,234,143) 0%, rgb(0,158,253) 100%);
+        background-image: -ms-linear-gradient( 165deg, rgb(35,234,143) 0%, rgb(0,158,253) 100%);
+        opacity: 0.8;
+        position: absolute;
+    }
+}
+
+
+
+/* shop_banner css
+======================================*/
+.shop_banner{
+    background: url("../image/shop/shop-banner.jpg") no-repeat scroll center 0;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    padding: 128px 0px;
+    &:before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #2b2b2b;
+        opacity: 0.60;
+        position: absolute;
+        z-index: -1;
+    }
+    .hero_text{
+        padding-top: 0px;
+        .hero_title{
+            text-transform: uppercase;
+            font-size: 40px;
+            line-height: 45px;
+            letter-spacing: 2px;
+            font-family: $pop;
+            font-weight: 600;
+            padding-bottom: 28px;
+        }
+        p{
+            font-family: $pop;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.28px;
+        }
+    }
+}

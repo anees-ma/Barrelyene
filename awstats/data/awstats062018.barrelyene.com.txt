@@ -1,0 +1,546 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 201806 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1915                
+POS_TIME 2586                
+POS_VISITOR 9953                
+POS_DAY 15384               
+POS_DOMAIN 3301                
+POS_LOGIN 3956                
+POS_ROBOT 4111                
+POS_WORMS 4433                
+POS_EMAILSENDER 4564                
+POS_EMAILRECEIVER 4707                
+POS_SESSION 15566               
+POS_SIDER 15724               
+POS_FILETYPES 4842                
+POS_OS 5020                
+POS_BROWSER 5116                
+POS_SCREENSIZE 5279                
+POS_UNKNOWNREFERER 5353                
+POS_UNKNOWNREFERERBROWSER 5663                
+POS_ORIGIN 5853                
+POS_SEREFERRALS 5990                
+POS_PAGEREFS 6134                
+POS_SEARCHWORDS 6369                
+POS_KEYWORDS 6521                
+POS_MISC 2250                
+POS_ERRORS 6580                
+POS_CLUSTER 3812                
+POS_SIDER_404 6702                
+POS_PLUGIN_geoip_city_maxmind 8452                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180605003833 453 72202 0
+FirstTime 20180601004509
+LastTime 20180605003833
+LastUpdate 20180605071043 453 0 158 295 0
+TotalVisits 140                 
+TotalUnique 135                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 135                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 37 2614943 3 5 24192
+1 2 2 22701 26 26 34629
+2 5 5 113505 38 38 41090
+3 14 42 2715543 38 42 64785
+4 15 44 2800959 31 35 17395
+5 5 5 90804 7 10 274386
+6 8 8 181608 1 1 23721
+7 7 7 158907 0 1 497
+8 7 7 139994 2 2 497
+9 7 7 158907 1 1 0
+10 8 8 181608 1 1 497
+11 3 3 68103 2 7 252004
+12 6 6 136206 48 53 273850
+13 13 41 2692842 4 8 68169
+14 5 5 113505 43 43 43078
+15 10 10 227010 5 5 46396
+16 6 6 136206 28 28 36120
+17 12 39 2660345 10 21 333833
+18 4 4 90804 7 10 78089
+19 8 19 491309 0 3 994
+20 4 4 90804 4 14 332148
+21 4 4 90804 1 1 497
+22 7 7 158907 4 5 180941
+23 4 4 90804 6 7 26057
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 32
+mx 29 29 658329
+unknown 27 27 612927
+us 25 79 5301777
+in 14 70 5113272
+ru 10 10 227010
+id 10 10 227010
+br 8 8 181608
+cn 8 19 491309
+ae 6 35 2596650
+gb 4 4 90804
+bd 2 2 45402
+tr 1 1 22701
+es 3 3 68103
+fr 1 1 22701
+co 3 3 68103
+th 2 2 45402
+hk 1 1 22701
+al 1 1 22701
+cz 1 1 22701
+ir 1 1 22701
+np 1 1 22701
+jp 1 1 22701
+cl 1 1 22701
+gr 1 1 22701
+au 1 1 22701
+eu 1 1 0
+ni 1 1 22701
+pk 1 1 22701
+hu 1 1 22701
+pl 3 3 68103
+nl 3 3 68103
+se 2 2 45402
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 34 1299833 20180603230741 0
+bot[+:,\.\;\/\\-] 23 506090 20180604170102 0
+no_user_agent 9 181608 20180604140944 0
+baiduspider 9 0 20180604182322 0
+netcraft 2 22701 20180602035330 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 18 1367940 0 0
+png 48 2707713 0 0
+html 152 3280277 0 0
+jpg 36 7943665 0 0
+js 48 459654 0 0
+svg 10 58895 0 0
+otf 12 408984 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 55
+winlong 1
+winxp 1
+winnt 244
+Unknown 8
+linux 15
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 9
+msie8.0 37
+firefox57.0 1
+mozilla 3
+netscape5.0 2
+firefox52.0 1
+firefox9.0.1 1
+Unknown 3
+safari 275
+firefox47.0 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0 20180602042147
+Mozilla/5.0_zgrab/0.x 20180602082926
+Go-http-client/1.1 20180604005616
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20180604072849
+Mozilla/5.0_(compatible;_ips-agent) 20180604082607
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Go-http-client/1.1 20180604005616
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20180604072849
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 148 175
+From1 0 0
+From2 0 0
+From3 2 2
+From4 24 147
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://gotcheme.com/contactus.php 1 1
+http://www.gotcheme.com/chemical-trading.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+501 6 2982
+400 2 994
+500 3 1491
+404 279 138166
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 59
+/phpmyadmin2/index.php 6 -
+/phpMyAdmin/index.php 6 -
+/robots.txt 17 -
+/phpmyadmin0/index.php 7 -
+/manage/content/update.php 2 -
+/pmamy2/index.php 4 -
+/PMA2/index.php 4 -
+/aaaaaaaccaac2124 1 http://162.215.248.208:80/aaaaaaaccaac2124
+/js/navbar-affix.js 10 http://barrelyene.com/
+/winbox.png 1 -
+/pmd/index.php 5 -
+/admin/index.php 6 -
+/pma-old/index.php 5 -
+/tmp.php 1 -
+/upload/bank-icons/bank-gh.jpg 1 http://162.215.248.208:80/upload/bank-icons/bank-gh.jpg
+/admin/phpmyadmin2/index.php 6 -
+/web/phpMyAdmin/index.php 6 -
+/phpMyAdmin.old/index.php 7 -
+/myadmin/index.php 5 -
+/myadmin2/index.php 6 -
+/mysql-admin/index.php 5 -
+/user/login/ 1 -
+/admin/phpmyadmin/index.php 5 -
+/wp-pols.php 5 -
+/admin/mysql2/index.php 4 -
+/CHANGELOG.txt 1 -
+/phpMyadmin_bak/index.php 6 -
+/phpadmin/index.php 5 -
+/pmamy/index.php 5 -
+/phpmyadmin1/index.php 5 -
+/phpmyadmin-old/index.php 4 -
+/phpmyadmin/phpmyadmin/index.php 5 -
+/db/index.php 6 -
+/typo3/phpmyadmin/index.php 6 -
+/user/register/ 1 -
+/mysqladmin/index.php 5 -
+/pma/index.php 5 -
+/admin/PMA/index.php 5 -
+/HNAP1/ 1 http://162.215.248.208/
+/mysql/index.php 4 -
+/www/phpMyAdmin/index.php 5 -
+/phpMyAdminold/index.php 5 -
+/js/maps-style.js 10 http://barrelyene.com/
+/claroline/phpMyAdmin/index.php 4 -
+/manager/html 1 -
+/PMA/index.php 5 -
+/upload/bank-icons/bank_16.png 1 http://162.215.248.208:80/upload/bank-icons/bank_16.png
+/phpma/index.php 6 -
+/phpMyAdmin/phpMyAdmin/index.php 5 -
+/tools/phpMyAdmin/index.php 6 -
+/admin/pma/index.php 6 -
+/index.php 6 -
+/upgrade-network.php 1 -
+/xampp/phpmyadmin/index.php 6 -
+/dbadmin/index.php 5 -
+/admin/phpMyAdmin/index.php 7 -
+/phpmyadmin/index.php 2 -
+/ccvv 2 -
+/admin/mysql/index.php 6 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 49
+unknown 0 123 0 0
+ae_dubai_03 0 35 0 0
+in_mumbai_16 0 34 0 0
+us_san%20francisco_ca 0 33 0 0
+us_indianapolis_in 0 32 0 0
+mx_mexico_09 0 6 0 0
+ru_saint%20petersburg_66 0 5 0 0
+br_são%20paulo_27 0 3 0 0
+us_sterling_va 0 3 0 0
+id_jakarta_04 0 3 0 0
+nl_rotterdam_11 0 2 0 0
+jp_tokyo_40 0 1 0 0
+co_bogotá_33 0 1 0 0
+cn_shenzhen_30 0 1 0 0
+bd_dhaka_81 0 2 0 0
+cn_jinan_25 0 2 0 0
+mx_seybaplaya_04 0 1 0 0
+co_cartago_29 0 1 0 0
+mx_veracruz_30 0 2 0 0
+mx_celaya_11 0 1 0 0
+mx_san%20nicolás%20de%20los%20garza_19 0 2 0 0
+ir_mihan_27 0 1 0 0
+gr_athens_35 0 1 0 0
+fr_paris_a8 0 1 0 0
+cl_santiago_12 0 1 0 0
+tr_antalya_07 0 1 0 0
+se_umeå_23 0 1 0 0
+hk_central%20district_00 0 1 0 0
+us_houston_tx 0 1 0 0
+in_delhi_07 0 1 0 0
+pl_cracow_77 0 1 0 0
+cz_ceska_78 0 1 0 0
+mx_puebla_21 0 1 0 0
+gb_alexandria_w7 0 1 0 0
+ru_barnaul_04 0 1 0 0
+us_seattle_wa 0 1 0 0
+gb_burton-on-trent_d3 0 3 0 0
+id_semarang_07 0 1 0 0
+mx_la%20paz_03 0 1 0 0
+us_wilmington_de 0 1 0 0
+id_wilayah_07 0 1 0 0
+br_campo%20limpo_27 0 1 0 0
+mx_villahermosa_27 0 2 0 0
+co_medellín_02 0 1 0 0
+br_araranguá_26 0 1 0 0
+ru_moscow_48 0 1 0 0
+ru_saratov_67 0 1 0 0
+us_woodbridge_nj 0 1 0 0
+au_melbourne_07 0 1 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 135
+70.42.131.170 6 33 2524139 20180602175606
+2.50.102.85 6 35 2596650 20180603041000
+106.208.130.54 6 34 2533935 20180604132330
+114.143.43.105 6 34 2533935 20180601035853
+31.184.194.109 5 5 113505 20180604180550
+40.77.179.209 5 32 2501438 20180601004514
+101.199.108.120 4 15 400505 20180601194139
+91.107.236.192 3 3 68103 20180604150207
+69.58.178.57 3 3 49190 20180604082607
+189.129.103.244 2 2 45402 20180604040343
+88.147.174.58 1 1 22701 20180603130053
+46.107.214.223 1 1 22701 20180604001206
+60.217.64.237 1 1 22701 20180602132333
+189.226.215.162 1 1 22701 20180603121529
+125.161.157.47 1 1 22701 20180601125246
+110.77.215.161 1 1 22701 20180601052552
+103.22.244.60 1 1 22701 20180602064239
+104.223.203.202 1 1 22701 20180603094314
+45.115.254.96 1 1 22701 20180601222335
+187.175.49.163 1 1 22701 20180603005840
+37.237.238.94 1 1 22701 20180601031742
+31.4.46.8 1 1 22701 20180601074139
+175.111.181.150 1 1 22701 20180601113415
+23.228.88.58 1 1 22701 20180602154257
+201.236.214.59 1 1 22701 20180601181250
+187.214.75.230 1 1 22701 20180602145415
+101.255.16.234 1 1 22701 20180602221005
+36.67.74.209 1 1 22701 20180601054734
+200.25.250.179 1 1 22701 20180605003833 20180605003833 /
+177.103.203.136 1 1 22701 20180601072308
+5.28.241.57 1 1 0 20180602053545
+134.236.113.117 1 1 22701 20180601163553
+195.150.63.165 1 1 22701 20180602131957
+210.50.247.210 1 1 22701 20180604094721
+103.46.237.207 1 1 22701 20180603151602
+177.21.128.123 1 1 22701 20180602121946
+54.183.98.97 1 1 22701 20180603224120
+46.143.82.92 1 1 22701 20180604000440
+163.172.4.153 1 1 22701 20180601234049
+196.61.11.80 1 1 22701 20180601133703
+212.37.28.218 1 1 22701 20180604201721
+189.157.227.157 1 1 22701 20180603225259
+103.206.225.211 1 1 22701 20180602094506
+189.236.22.9 1 1 22701 20180604033442
+138.118.86.221 1 1 22701 20180601203953
+187.147.191.123 1 1 22701 20180601130003
+110.44.123.203 1 1 22701 20180603074157
+58.57.152.227 1 1 22701 20180604155920
+139.162.108.53 2 2 45402 20180604005616
+189.132.100.104 1 1 22701 20180602174417
+201.103.19.15 1 1 22701 20180602070618
+103.90.205.205 1 1 22701 20180604014025
+189.252.3.42 1 1 22701 20180603034639
+152.231.57.61 1 1 22701 20180603103856
+157.52.157.130 1 1 22701 20180602060501
+179.109.63.129 1 1 22701 20180602215138
+86.49.169.154 1 1 22701 20180602082055
+189.153.196.123 1 1 22701 20180603134407
+80.173.237.83 1 1 22701 20180604122707
+200.100.167.242 1 1 22701 20180602060834
+103.61.100.197 1 1 22701 20180602163518
+189.157.233.198 2 2 45402 20180601155657
+187.194.194.13 1 1 22701 20180603022932
+77.242.27.179 1 1 22701 20180603191911
+103.46.237.218 1 1 22701 20180601085746
+162.251.158.231 1 1 22701 20180602024431
+34.219.104.145 1 1 0 20180601010857
+5.188.87.14 1 1 22701 20180602042147
+124.81.242.178 1 1 22701 20180601194545
+187.207.41.223 1 1 22701 20180603224922
+103.7.80.163 1 1 22701 20180604075924
+123.200.14.238 1 1 22701 20180601170426
+116.48.81.245 1 1 22701 20180602082926
+91.202.46.155 1 1 22701 20180604213150
+201.110.145.111 1 1 22701 20180604185020
+223.204.113.26 1 1 22701 20180601192453
+187.192.234.227 1 1 22701 20180601092837
+109.235.19.29 1 1 22701 20180603102236
+45.124.147.50 1 1 22701 20180602043526
+186.232.16.10 1 1 22701 20180604150052
+115.127.6.250 1 1 22701 20180602064905
+88.220.178.104 1 1 22701 20180601175731
+36.85.136.127 1 1 22701 20180601040455
+14.102.24.209 1 1 22701 20180602221647
+23.228.75.229 1 1 22701 20180602095826
+146.120.105.116 1 1 22701 20180601045344
+36.89.106.167 1 1 22701 20180601105131
+95.9.37.22 1 1 22701 20180603161100
+187.207.47.201 1 1 22701 20180602064553
+134.17.26.88 1 1 22701 20180604041955
+179.199.148.222 1 1 22701 20180602131423
+46.177.37.62 1 1 22701 20180603192826
+186.1.1.66 1 1 22701 20180604024504
+103.251.248.143 1 1 22701 20180603122558
+89.169.114.201 1 1 22701 20180604165634
+182.73.206.118 1 1 22701 20180602112517
+189.146.85.27 1 1 22701 20180602022411
+80.82.70.118 1 1 22701 20180604072849
+187.11.65.26 1 1 22701 20180601104751
+201.152.55.160 1 1 22701 20180603184258
+95.181.248.95 1 1 22701 20180602031505
+190.3.207.181 1 1 22701 20180603054527
+150.242.255.219 1 1 22701 20180604071727
+187.10.123.194 1 1 22701 20180603213145
+189.163.238.49 1 1 22701 20180604171019
+164.160.142.30 1 1 22701 20180602062011
+37.238.133.82 1 1 22701 20180601095707
+189.131.225.35 1 1 22701 20180603172037
+45.115.172.241 1 1 22701 20180602032316
+201.76.5.136 1 1 22701 20180602062650
+177.68.15.26 1 1 22701 20180602065232
+189.154.62.165 1 1 22701 20180603022440
+185.154.205.161 1 1 22701 20180603234508
+60.191.38.77 1 1 22701 20180601044434
+189.166.21.163 1 1 22701 20180604111002
+103.239.52.104 1 1 22701 20180604141952
+201.93.27.142 1 1 22701 20180604162416
+138.68.180.18 1 1 22701 20180603155347
+185.228.104.60 1 1 22701 20180604202740
+103.49.56.210 1 1 22701 20180604175447
+176.117.41.30 1 1 22701 20180601045007
+110.50.84.22 1 1 22701 20180604223012
+203.77.252.34 1 1 22701 20180602164733
+114.30.83.155 1 1 22701 20180601082512
+187.155.13.196 1 1 22701 20180603233100
+217.153.80.226 1 1 22701 20180603200407
+189.152.179.183 1 1 22701 20180603091641
+164.52.24.163 1 1 22701 20180603212807
+182.84.145.7 1 1 22701 20180604140653
+187.145.118.167 2 2 45402 20180604034028
+190.161.252.177 1 1 22701 20180603105321
+46.236.65.69 1 1 22701 20180603104306
+109.194.194.240 1 1 22701 20180604120606
+201.13.146.153 1 1 22701 20180602230531
+185.187.182.28 1 1 22701 20180603033155
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20180601 48 114 6162310 35
+20180602 42 69 3318674 37
+20180603 39 68 3345783 34
+20180604 44 72 3377660 33
+20180605 1 1 22701 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 1
+0s-30s 138
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 144 3223542 139 132
+/fonts/Aileron-Regular.otf 6 198144 0 1
+/footer.html 6 30246 0 3
+/fonts/Aileron-Heavy.otf 6 210840 0 1
+/img/logo.svg 5 56120 1 0
+/img/master/icons/cd-top-arrow.svg 5 2775 0 1
+/industrial.html 1 12876 0 1
+/applications.html 1 13613 0 0
+END_SIDER

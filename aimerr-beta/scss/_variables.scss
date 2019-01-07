@@ -1,0 +1,74 @@
+/*----------------------------------------------------
+@File: Default Styles
+@Author: Droitlab
+@URL: https://themeforest.net/user/droitthemes
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+---------------------------------------------------- */
+/*=====================================================================
+@Template Name: ASEO
+@Author: Droitlab
+@Developed By: Droitlab
+@Developer URL: https://themeforest.net/user/droitthemes
+
+@Default Styles
+
+Table of Content:
+01/ variables
+02/ predefine
+03/ button
+04/ header
+05/ slider
+06/ banner
+07/ team
+08/ portfolio
+09/ blog
+10/ products
+11/ testimonial
+12/ features
+13/ video
+14/ pricing
+15/ contact 
+16/ footer 
+=====================================================================*/
+
+/*=== fonts ====*/
+$pop: 'Poppins', sans-serif;
+$rob:'Roboto', sans-serif;
+$open: 'Open Sans', sans-serif;
+$lato: 'Lato', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,600|Roboto:400,500');
+
+@font-face {
+    font-family: 'DroidSerif';
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/DroidSerif-Italic.ttf") format("truetype");
+}
+
+
+/*===== color =====*/
+$blue:#3fcef7;
+$dk-blue:#1e2d3c;
+$p-color:#6f7982;
+//$blue:#1aabec;
+//$dk-gray:#555555;
+$green: #8ec549;
+//$seo-g:#8ec549;
+// Mixins
+@mixin transition($property: all, $duration: 400ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}

@@ -1,0 +1,77 @@
+.p0{
+    padding: 0px;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration:none;
+    &:hover, &:focus{
+       text-decoration:none;
+    }
+}
+.row.m0{
+    margin: 0px;
+}
+
+body, p, h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font: 400 15px/28px $pop;
+    letter-spacing: 0px;
+    color: $p-color;
+    padding: 0px !important;
+}
+
+a,.btn,button{
+    text-decoration: none;
+    outline: none;
+    &:hover,&:focus{
+        text-decoration: none;
+        outline: none;
+    }
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus{
+    outline: none;
+    box-shadow: none;
+}
+section, header, footer{
+    &.row{
+        margin: 0;
+    }
+}
+
+.sec-pad{
+    padding: 126px 0px 130px;   
+}
+.section-title.title-w{
+    .title{
+        color: #fff;
+    }
+    p{
+        color: #fff;
+    }
+}
+.title{
+    font: 400 35px/45px $pop;
+    color: $dk-blue;
+    padding-bottom: 32px;
+}
+.section-title{
+    text-align: center;
+    max-width: 770px;
+    margin: 0 auto 76px;;
+    p{
+        color: $p-color;
+    }
+}
+
+.sec-border{
+    border-color: #e1e1e1;
+    margin: 110px 0px 130px;
+}

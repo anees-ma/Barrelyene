@@ -1,0 +1,739 @@
+.span-section{
+    margin: 60px auto 60px auto;
+    padding: 0px 15px 0px 15px;
+}
+
+.span-section-2{
+    margin: 60px auto 30px auto;
+}
+
+.section-title{
+    margin-bottom: 0px;
+}
+
+@media (min-width: 1200px) {
+.span-section {
+    width: 1200px;
+}
+    
+.span-section-2 {
+    width: 1200px;
+}
+    
+}
+
+/* ================== IMAGE HOVER EFFECTS. =================== */
+
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 0px 8px 0px 2px;
+	max-width: 1200px;
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+    width: 100%;
+	margin: 10px 1%;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h3 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid figure h3 span {
+	font-weight: 800;
+}
+
+.grid figure h3,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+figure.effect-lily img {
+	max-width: none;
+	width: -webkit-calc(100% + 50px);
+	width: calc(100% + 50px);
+	opacity: 0.7;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-40px,0, 0);
+	transform: translate3d(-40px,0,0);
+}
+
+figure.effect-lily figcaption {
+	text-align: center;
+}
+
+figure.effect-lily figcaption > div {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	padding: 2em;
+	width: 100%;
+	height: 50%;
+}
+
+figure.effect-lily h3,
+figure.effect-lily p {
+	-webkit-transform: translate3d(0,40px,0);
+	transform: translate3d(0,40px,0);
+}
+
+figure.effect-lily h3 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-lily p {
+	color: rgba(255,255,255,0.8);
+	opacity: 0;
+	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+	transition: opacity 0.2s, transform 0.35s;
+}
+
+figure.effect-lily:hover img,
+figure.effect-lily:hover p {
+	opacity: 1;
+}
+
+figure.effect-lily:hover img,
+figure.effect-lily:hover h3,
+figure.effect-lily:hover p {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-lily:hover p {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+	-webkit-transition-duration: 0.35s;
+	transition-duration: 0.35s;
+}
+
+/* ========== SERVICE FRONT. ========== */
+.service-front {
+  display: block;
+  line-height: 1.42857143;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+  margin-top: 10px;
+}
+.service-front > img,
+.service-front a > img {
+  margin-right: auto;
+  margin-left: auto;
+    width: 100%;
+}
+a.service-front:hover,
+a.service-front:focus,
+a.service-front.active {
+  border-color: #337ab7;
+}
+.service-front .caption {
+  padding: 9px;
+  color: #333;
+}
+
+.service-front h3{
+    text-align: center;
+}
+
+.service-front p{
+    text-align: center;
+    margin: 10px 0px 15px 0px;
+}
+
+@media (max-width:992px) {  
+
+.service-front.center-img{
+    margin: 30px 0px 30px 0px;
+}
+    
+}
+
+/* ================== SERVICE FRONT. =================== */
+.front-services{
+    background: #f2f2f2;
+    width: 100%;
+    height: 220px;
+    position: relative;
+    transition: 0.3s;
+    margin-top: 50px;
+}
+
+.front-services:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: #F2A81D
+}
+
+.bottom-box{
+    margin-top: 70px;
+}
+
+.energy-icon{
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    border-radius: 50%;
+    position: absolute;
+    top: -10%; left: 50%;
+    transform: translate(-50%,-20%);
+    border: solid 1px #FFF;
+}
+
+.energy-icon img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.front-content{
+    width: 300px;
+    margin: auto;
+    padding: 60px 0px 70px 0px;  
+}
+
+.front-content h3{
+    text-align: center; 
+    color: #F2A81D;
+}
+
+.front-content p{
+    text-align: center; 
+    color: #666;
+}
+
+.front-services:hover .front-content h3{
+    color: #FFF;
+}
+
+.front-services:hover .front-content p{
+    color: #FFF;
+}
+
+/* ================== MAPS. =================== */
+
+
+    
+#map{
+    height: 100%;
+}
+
+.maps{
+    min-height: 500px;
+    margin-bottom: 66px;
+}
+
+
+/* ================== ACCORDION STYLE 1. =================== */
+
+.faq-container p{
+    margin: 15px 0px 30px 0px;
+}
+
+strong{
+    font-weight: bold;
+    color: #F2A81D;
+}
+
+
+button.accordion {
+    background-color: #FFF;
+    color: #333;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+    border-radius: 0px;
+    border-bottom: solid 1px #d9d9d9;
+    font-family: Aileron-Regular;
+}
+
+button.accordion.last {
+    border-bottom: solid 1px #d9d9d9;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #f0f0f0;
+    border-bottom: solid 1px #f0f0f0;
+}
+
+button.accordion:after {
+    font-family: FontAwesome;
+    content: "\f067";
+    color: #F2A81D;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    transition: 0.9s;
+}
+
+button.accordion.active:after {
+    font-family: FontAwesome;
+    content: "\f00d";
+}
+
+div.panel {
+    padding: 0 15px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel{
+    border: none;
+    margin: 0px;
+}
+
+.panel p{
+    text-align: left;
+    padding: 10px 0px 10px 0px;
+    color: #999;
+}
+
+/* ================== ACCORDION STYLE 2. =================== */
+
+.elements-2{
+    margin-top: 10px;
+}
+    
+.elements-2 .faq-container p{
+    margin: 15px 0px 30px 0px;
+}
+
+.elements-2 strong{
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.elements-2 button.accordion {
+    background-color: #F2A81D;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+    border-radius: 0px;
+    border-bottom: solid 1px #fff;
+    font-family: Aileron-Regular;
+}
+
+.elements-2 button.accordion.last {
+    border-bottom: solid 1px #d9d9d9;
+}
+
+.elements-2 button.accordion.active{
+    background-color: #00354A;
+    border-bottom: solid 1px #fff;
+} 
+
+.elements-2 button.accordion:hover {
+    background-color: #00354A;
+    border-bottom: solid 1px #fff;
+}
+
+.elements-2 button.accordion:after {
+    font-family: FontAwesome;
+    content: "\f106";
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    transition: 0.9s;
+}
+
+.elements-2 button.accordion.active:after {
+    font-family: FontAwesome;
+    content: "\f107";
+}
+
+.elements-2 div.panel {
+    padding: 0 15px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.elements-2 .panel{
+    border: none;
+    margin: 0px;
+}
+
+.elements-2 .panel p{
+    text-align: left;
+    padding: 10px 0px 10px 0px;
+    color: #999;
+}
+
+/* ================== COUNTER STYLE 1. =================== */
+.counter-parallax{
+    background-image: url("../img/counter-bg.jpg");
+    height: 280px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px 50px 0px;
+}
+
+circle-counter {
+    font-size: 33px;
+    color: #FFF;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px 30px 0px 30px;
+}
+
+circle-counter h4{
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+}
+
+.circle{
+    font-size: 40px;
+    text-align: center;
+    color: #FFF;
+}
+
+circle-counter > circle-counter {
+    margin-bottom: 0;
+}
+
+.counter-icon{
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.counter-icon .fa{
+    font-size: 50px;
+    color: #F2A81D;
+}
+
+code, code > circle-counter {
+    text-align: left;
+    display: block;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+    
+}
+
+code > circle-counter {
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+circle-counter {
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+
+.circle {
+    clear: both;
+}
+            
+circle-counter h4{
+    margin-left: 0px;
+}
+            
+}
+
+@media only screen and (max-width: 800px) {
+div > circle-counter {
+    font-size: 33px;
+    display: block;
+    width: 100% !important;
+}
+
+circle-counter {
+    font-size: 33px;
+}
+
+code {
+    margin-bottom: 10px;
+}
+}
+
+
+@media (max-width:767px) {
+.counter-parallax{
+    height: 100%; 
+}
+    
+}
+
+
+/* ================== COUNTER STYLE 2. =================== */
+.counter-bg{
+    background-image: url("http://placehold.it/1920x400");
+    height: 280px; 
+    background: #00354A;
+    padding: 50px 0px 50px 0px;
+    margin-bottom: 30px;
+}
+
+circle-counter {
+    font-size: 33px;
+    color: #FFF;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px 30px 0px 30px;
+}
+
+circle-counter h4{
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+}
+
+.circle{
+    font-size: 40px;
+    text-align: center;
+    color: #FFF;
+}
+
+circle-counter > circle-counter {
+    margin-bottom: 0;
+}
+
+.counter-icon{
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.counter-icon .fa{
+    font-size: 50px;
+    color: #F2A81D;
+}
+
+code, code > circle-counter {
+    text-align: left;
+    display: block;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+    
+}
+
+code > circle-counter {
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+circle-counter {
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+
+.circle {
+    clear: both;
+}
+            
+circle-counter h4{
+    margin-left: 0px;
+}
+            
+}
+
+@media only screen and (max-width: 800px) {
+div > circle-counter {
+    font-size: 33px;
+    display: block;
+    width: 100% !important;
+}
+
+circle-counter {
+    font-size: 33px;
+}
+
+code {
+    margin-bottom: 10px;
+}
+}
+
+@media (max-width:767px) {
+.counter-bg{
+    height: 100%; 
+}
+    
+}
+
+/* ================== CALL TO ACTION STYLE 1. =================== */
+.main-call-out{
+    background: #F2A81D;
+    margin: 0px;
+}
+
+.call-out{
+    width: 100%;
+    height: auto;
+    padding: 15px 20px 25px 20px;
+    background-color: #F2A81D;
+    border-radius: 4px;
+}
+
+.call-out h2{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+    color: #FFF;
+    text-align: left;
+    font-weight: normal;
+}
+
+.call-out p{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+    color: #FFF;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* ================== CALL TO ACTION STYLE 2. =================== */
+.main-call-out.elements-2{
+    background: #00354A;
+    margin: 0px;
+}
+
+.elements-2 .call-out{
+    width: 100%;
+    height: auto;
+    padding: 15px 20px 25px 20px;
+    background-color: #00354A;
+    border-radius: 4px;
+}
+
+.elements-2 .call-out h2{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+    color: #FFF;
+    text-align: left;
+    font-weight: normal;
+}
+
+.elements-2 .call-out p{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+    color: #FFF;
+    font-size: 14px;
+    text-align: left;
+}
+
+@media (max-width:992px) {  
+
+.call-out{
+    width: 100%;
+    height: auto;
+}
+    
+.call-out h2{
+    text-align: center;
+}
+
+.call-out p{
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+    
+.elements-2 .call-out{
+    width: 100%;
+    height: auto;
+}
+    
+.elements-2 .call-out h2{
+    text-align: center;
+}
+
+.elements-2 .call-out p{
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+    
+}

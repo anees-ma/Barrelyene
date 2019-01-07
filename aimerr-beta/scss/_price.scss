@@ -1,0 +1,291 @@
+/*=============== start pricing-area css ===================*/
+.perfect_price_plan{
+    padding: 104px 0px 120px;
+}
+.price-tab{
+    max-width:570px;
+    margin: 40px auto 0px;
+    border: 0px;
+    li{
+        padding: 0px;
+        margin: 0px;
+        width: 50%;
+        a{
+            padding: 0px 50px;
+            font: 700 16px/60px  $open;
+            color: #1a264a;
+            text-transform: uppercase;
+            margin: 0px;
+            letter-spacing: 1.6px;
+            border: 1px solid #e2e5e7;
+            border-radius: 40px 0px 0px 40px;
+            text-align: center;
+            &:hover,&:focus{
+                background: #f8fafc;
+            }
+        }
+        &.active{
+            a{
+                background: #f8fafc;
+                border:1px solid #e2e5e7;
+                border-bottom-right-radius: 0px;
+                border-top-right-radius: 0px;
+                &:hover,&:focus{
+                    background:#f8fafc;
+                    border-color:#e2e5e7; 
+                }
+            }
+        }
+        &:last-child{
+            a{
+                border-radius: 0px 40px 40px 0px;
+            }
+        }
+    }
+}
+.priceing-tab{
+    padding: 50px 0px 0px;
+}
+.price{
+    .pricing-box{
+        border-radius: 3px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #f8f8f8;
+        text-align: center;
+        padding: 0px 0px 40px;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        margin-top: 30px;
+        .pricing-header{
+            position: relative;
+            background: #f8fafc;
+            padding-top: 10px;
+            position: relative;
+            &:before{
+                content: "";
+                height: 33px;
+                width: 3px;
+                background: #7ed321;
+                position: absolute;
+                left: 0;
+                top: 20px;
+            }
+            .tag{
+                font: 600 12px/23px "Open Sans", sans-serif;
+                color: #fff;
+                text-transform: uppercase;
+                background: #f88e40;
+                width: 75px;
+                transform: rotate(90deg);
+                position: absolute;
+                top: 4px;
+                right: 0;
+                padding: 4px 0px;
+                border: 0px;
+                &:before{
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    border-left: 0px solid transparent;
+                    border-right: 15px solid transparent;
+                    border-bottom: 13px solid #f88e40;
+                    position: absolute;
+                    top: 1px;
+                    transform: rotate(90deg);
+                    right: -14px;
+                }
+                &:after{
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    border-left: 15px solid transparent;
+                    border-right: 0px solid transparent;
+                    border-bottom: 13px solid #f88e40;
+                    position: absolute;
+                    transform: rotate(90deg);
+                    right: -14px;
+                    bottom: 1px;
+                }
+                
+            }
+            h2{
+                font: 400 18px/60px $rob;
+                color: #8d99b3;
+                text-transform: capitalize;
+                padding-bottom: 0px;
+            }
+            .packeg_typ{
+                font: 600 60px/60px "Open Sans", sans-serif;
+                color: #1a264a;
+                padding: 0px 0px 45px;
+                span{
+                    font: 400 24px/35px $open;
+                    letter-spacing: 1px;
+                    vertical-align: top;
+                }
+                small{
+                    font-family: $lato;
+                    font-size: 16px;
+                    line-height: 30px;
+                    vertical-align: bottom;
+                    color: #1a264a;
+                }
+            }
+        }
+        .plan-lists{
+            padding: 38px 0px 22px;
+            li{
+                font: 400 15px/36px $open;
+                color: #6f7982;
+            }
+        }
+        &:hover{
+            box-shadow: 0px 17px 37px 0px rgba(26, 38, 74, 0.25);
+            .purchase-btn{
+                background: #7ed321;
+                color: #fff;
+            }
+        }
+        &.active{
+            box-shadow: 0px 17px 37px 0px rgba(26, 38, 74, 0.25);
+            &:hover{
+                .purchase-btn{
+//                    background: $blue;
+//                    color: #fff;
+                }
+            }
+        }
+    }
+}
+.try{
+    display: block;
+    font: 400 12px/50px $open;
+    color: #b8b8b8;
+    text-transform: uppercase;
+    @include transition;
+    &:hover{
+        color:  #7ed321;
+    }
+}
+.purchase-btn{
+    font-size: 14px;
+    color: #1a264a;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border: 1px solid $green;
+    display: inline-block;
+    padding: 2px 46px;
+    border-radius: 40px;
+    transition: all 0.4s linear;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+/*=============== End pricing-area css ===================*/
+
+
+/*============ pricing-area-two css ============*/
+.pricing-area-two{}
+.pricing-table{
+    max-width: 770px;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 23px;
+    .price{
+        padding: 30px 0px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 1px 10px 0px rgba(18, 81, 125, 0.15);
+        text-align: center;
+        border-top: 5px solid $green;
+        transition: all 0.4s linear;
+        .pricing-header{
+            margin: 0px 30px;
+            border-bottom: 1px solid #e3eaeb;
+            .packeg_typ{
+                font-size: 60px;
+                line-height: 60px;
+                color: $green;
+                span{
+                    vertical-align: top;
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+            }
+            h4{
+                font-size: 16px;
+                color: #606d8d;
+                padding: 10px 0px 20px;
+            }
+        }
+        .list-unstyled{
+            padding: 15px 0px 0px;
+            min-height: 185px;
+            li{
+                line-height: 36px;
+            }
+        }
+        .try{
+            display: block;
+            font-size: 12px;
+            line-height: 40px;
+            letter-spacing:1.2px;
+            color: #b8b8b8;
+            text-transform: uppercase;
+            &:hover{
+                color: #8ec549;
+            }
+        }
+        .purchase-btn{
+            font-size: 14px;
+            line-height: 41px;
+            color: #1a264a;
+            text-transform: uppercase;
+            font-weight: 600;
+            display: inline-block;
+            padding: 6px 52px;
+            border: 1px solid $green;
+            border-radius: 50px;
+            transition: all 0.4s linear;
+        }
+        &:nth-child(2){
+            border-top: 5px solid transparent;
+            border-image: linear-gradient( -90deg, rgb(110,9,181) 0%,rgb(110,9,181) 0%, rgb(193,152,255) 100%, rgb(193,152,255) 99%);
+            border-image-slice: 1;
+            transform: scale(1.1);
+            z-index: 1;
+        }
+        &:nth-child(3){
+            border-top: 5px solid transparent;
+            border-image: linear-gradient( -90deg, rgb(20,219,255) 0%,rgb(20,219,255) 0%, rgb(165,241,255) 100%, rgb(165,241,255) 99%);
+            border-image-slice: 1;
+        }
+        &:hover{
+            transform: scale(1.1);
+            z-index: 3;
+            .purchase-btn{
+                background: $green;
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+
+/*========= clients_logo_area css =========*/
+.clients_logo_area{
+    border-bottom: 1px solid #e1e1e1;
+    padding: 38px 0px;
+    .clients_logo_s{
+        text-align: center;
+        img{
+            width: auto;
+            opacity: 0.40;
+            display: inline-block;
+            transition: all 0.2s linear;
+            cursor: pointer;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+}

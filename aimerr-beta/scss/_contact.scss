@@ -1,0 +1,92 @@
+.contact_area{
+    .section-title{
+        h2{
+            padding-bottom: 0px;
+        }
+    }
+}
+.contact-form{
+    .form-group{
+        position: relative;
+        padding-bottom: 15px;
+        .form-control{
+            box-shadow: none;
+            border: 1px solid #ebebeb;
+            height: 60px;
+            padding-left: 30px;
+            font: 400 15px/28px $pop;
+            color: #9c9c9c;
+            &.error{
+                border-color: #3fcef7;
+                & + .error{
+                    font: 13px/24px $pop;
+                    font-weight: normal;
+                    color: #3fcef7;
+                    position: absolute;
+                    bottom: -7px;
+                    margin: 0px;
+                    width: 80%;
+                    left: 15px;
+                }
+            }
+        }
+        textarea{
+            &.form-control{
+                height: 280px;
+                padding-top: 20px;
+            }
+        }
+    }
+    .pro_btn{
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+    }
+    #success,#error{
+        display: none;
+    }
+}
+
+
+/*=========== subcribe_analysis css ============*/
+.subcribe_analysis{
+    &:before{
+        background: #f8fcff;
+    }
+    .section-title{
+        margin-bottom: 40px;
+    }
+}
+.analysis-form{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    .form-group{
+        padding: 0px 10px;
+        .form-control{
+            border-radius: 50px;
+            height: 50px;
+            width: 100%;
+            &:focus,&:hover{
+                border-color: rgb(235, 235, 235);
+                box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+            }
+            &.error{
+                & + .error{
+                    width: 100%;
+                    left: 0;
+                    bottom: -22px;
+                }
+            }
+        }
+    }
+    .green_btn{
+        display: inline-block;
+        width: auto;
+        padding: 0px 40px;
+        margin-top: 36px;
+        font-size: 14px;
+        line-height: 50px;
+        letter-spacing: 1px;
+    }
+}
